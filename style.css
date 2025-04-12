@@ -1,0 +1,128 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top,#044411,#1f98de);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: linear-gradient(to top,#034b16,#0b6881);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    gap: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f7f0f0;
+  }
+  
+  #taskInput {
+    width: 80%;
+    height: 50px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #130808;
+    border-radius: 4px;
+    color: #f6f2f2;
+    background-color: transparent;
+  }
+  
+  #addTaskBtn {
+    width: 20%;
+    height: 50px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #addTaskBtn:hover {
+    background-color: #12481d;
+  }
+  
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .taskItem:last-child {
+    border-bottom: none;
+  }
+  
+  .taskItem.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .deleteBtn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .deleteBtn:hover {
+    background-color: #c82333;
+  }
+  /* styles.css */
+.progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    margin: 10px 0;
+    overflow: hidden;
+  }
+  
+  #progressBar {
+    height: 10px;
+    background-color: #cf43c5;
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+  .status{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f98de;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .all button{
+    background-color:darkgreen;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+  .active button{
+    background-color:darkgreen;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+  .Complete button{
+    background-color:darkgreen;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+  }
